@@ -57,10 +57,10 @@ function Baby() {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Global/Window Binding: The "this" keyword will refer to variables declared outside of a function.
+  2. Implicit Binding: When calling a function using dot syntax, the object refered to before the dot would use the "this" keyword.  eg. "this.name"
+  3. New Binding: When using a constructor function to create and return an object, that specific instance would be refered to as "this"
+  4. Explicit Binding: The "this" keyword is defined when using the the call() or apply() method, regardless of whether the function is being called in the global scope or object method.
 */
 
 ///////// END OF CHALLENGE /////////
